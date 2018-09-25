@@ -1,0 +1,101 @@
+div.container{
+  padding-top:10px;
+}
+
+canvas#lineChart{
+  padding-top:10px;
+  padding-bottom:20px;
+  max-width:75%;
+  float:left;
+  min-height: 300px;
+}
+
+canvas#lineChartTotal{
+  padding-top:10px;
+  padding-bottom:20px;
+  max-width:75%;
+  float:left;
+  min-height: 300px;
+}
+
+form{
+  max-width:25%;
+  float:right;
+  padding-top:10px;
+}
+
+div.table-responsive{
+
+  text-align: center;
+
+}
+
+#departments{
+
+  text-align: left;
+
+}
+
+div#IdeaDiv{
+  width:75%;
+  float:left;
+}
+
+form#IdeaForm{
+  width:20%;
+  float:right;
+  margin-top:10px;
+  margin-right:10px;
+  margin-bottom: 50px;
+}
+
+div#ideaTable.table-responsive{
+  width:75%;
+  float:left;
+  margin-top:10px;
+  margin-left:10px;
+  margin-bottom: 50px;
+}
+
+button#buttonIdea.btn.btn-primary.btn-block{
+  margin-top:10px;
+}
+
+th#register{
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+th#approved{
+  cursor: pointer;
+  background-color: rgba(255,0,0,0.5);
+}
+th#tested{
+  cursor: pointer;
+  background-color: rgba(255,255,0,0.5);
+}
+th#implemented{
+  cursor: pointer;
+  background-color: rgba(0,0,255,0.5);
+}
+th#discarded{
+  cursor: pointer;
+  background-color: rgba(255,0,255,0.5);
+}
+th#total{
+  cursor: pointer;
+  background-color: rgba(0,255,255,0.5);
+}
+td{
+    font-weight: 500!important;
+    font-size: 12px!important;
+    line-height: 1.6!important;
+}
+#InnoviramLogo {
+    width: 25%;
+}
+#FilterDate{
+    width:100%;
+}
+#FilterDept{
+    width:100%;
+}
